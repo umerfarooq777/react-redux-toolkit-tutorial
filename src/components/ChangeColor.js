@@ -4,6 +4,7 @@ import { changeColor } from "../features/theme";
 
 function ChangeColor() {
   const [color, setColor] = useState("");
+
   const dispatch = useDispatch();
 
   return (

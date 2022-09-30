@@ -5,7 +5,8 @@ const initialStateValue = { name: "", age: 0, email: "" };
 export const userSlice = createSlice({
   name: "user",
   initialState: { value: initialStateValue },
-  reducers: {
+  reducers:
+  {
     login: (state, action) => {
       state.value = action.payload;
     },
